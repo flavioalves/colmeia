@@ -7,7 +7,6 @@ gem 'slim'
 gem 'unicorn'
 
 gem 'friendly_id'
-gem 'rufus-scheduler'
 gem 'resque'
 #gem 'draper'
 
