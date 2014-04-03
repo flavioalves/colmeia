@@ -1,7 +1,7 @@
 == How to bootstrap a project in Heroku
 
 Clone this repository:
-  git clone git@github.com:61bits/rails-heroku-bootstrap.git my_new_project
+  git clone git@github.com:flama/rails-bootstrap.git my_new_project
   cd my_new_project
 
 Rename the project to a name of your choosing and commit:
@@ -82,12 +82,7 @@ Else (Ctrl-C stops the webserver):
 * Compass: http://compass-style.org
 * SingularityGS: http://singularity.gs/
 * Slim: http://slim-lang.com
-* Coffeescript: http://coffeescript.org
-* ActiveAdmin: http://activeadmin.info
-* Mercury Editor: http://jejacks0n.github.io/mercury
-* CKEditor: http://ckeditor.com
 * jQuery: http://jquery.com
-* Draper: https://github.com/drapergem/draper
 * Factory Girl: https://github.com/thoughtbot/factory_girl
 * Rspec: http://rspec.info
 * Cucumber: http://cukes.info
@@ -109,19 +104,12 @@ The directory structure of the application:
   │   │       ├── states
   │   │       └── themes
   │   ├── controllers
-  │   ├── decorators
   │   ├── helpers
   │   ├── mailers
   │   ├── models
-  │   │   └── ckeditor
   │   ├── views
-  │   │   ├── admin
-  │   │   ├── contact_mailer
-  │   │   ├── contacts
-  │   │   ├── devise
   │   │   ├── frontend
   │   │   ├── home
-  │   │   ├── kss
   │   │   ├── layouts
   │   │   └── pages
   │   └── workers
@@ -268,3 +256,7 @@ MIT License Copyright © 2013
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+== License
+
+Special thanks to @aitherios and other developers that have been working in a bootstrap aplication for RoR.
