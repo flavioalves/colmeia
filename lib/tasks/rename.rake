@@ -19,7 +19,6 @@ task :rename, :project_name do |t, args|
   'config/initializers/secret_token.rb',
   'config/initializers/session_store.rb',
   'config/initializers/session_store.rb',
-  'config/initializers/active_admin.rb',
   'config/routes.rb',
   'config.ru',
   'lib/tasks/rename.rake'].each do |filename|
