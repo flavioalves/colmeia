@@ -6,5 +6,6 @@
 #= require grid.js
 #= require underscore.js
 #= require backbone.js
+#= require bootstrap/bootstrap.js
 
 

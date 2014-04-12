@@ -29,12 +29,11 @@ gem 'compass-rails'
 gem 'compass-normalize'
 gem 'singularitygs'
 gem 'singularity-extras'
-gem 'breakpoint'
+
 gem 'oily_png'
 gem 'color-schemer'
 gem 'toolkit'
 
-gem 'bootstrap-sass', '~> 3.1.1'
 
 group :test, :development do
   gem 'rspec-rails'
