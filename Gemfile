@@ -24,6 +24,7 @@ gem 'uglifier',       '>= 1.3.0'
 gem 'font_assets'
 gem 'modernizr-rails'
 gem 'selectivizr-rails'
+gem "font-awesome-rails"
 # compass and plugins
 gem 'compass-rails'
 gem 'compass-normalize'

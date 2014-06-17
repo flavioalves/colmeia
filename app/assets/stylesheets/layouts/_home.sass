@@ -1,3 +1,52 @@
-.starter-template
-  padding: 40px 15px
-  text-align: center
+.container
+  display: table
+  
+.content
+  color: white
+  vertical-align: middle
+  display: table-cell
+
+  .logo
+    background: url('logo.png') no-repeat center center
+    width: 300px
+    height: 380px
+    background-size: contain
+    margin-left: auto
+    margin-right: auto
+
+  ul.address    
+    list-style: none
+    width: 275px
+    margin: 20px auto 
+    padding: 15px 0px
+    border-top: 1px solid #f0d287
+    box-shadow: 0px -1px 0px 0px #cba136
+
+    li
+      //margin-left: 2px
+      text-transform: uppercase
+      font-weight: 200
+      font-size: 20px
+      letter-spacing: 2px
+      &.city
+        letter-spacing: 3px
+        //margin-left: 2px
+
+      &.mail
+        text-transform: lowercase
+        font-size: 17px
+        padding-bottom: 15px
+        letter-spacing: 0px
+
+      &.social
+        display: inline-block
+        font-size: 17px
+        padding-top: 15px
+        line-height: 30px
+        border-top: 1px solid #f0d287
+        box-shadow: 0px -1px 0px 0px #cba136        
+        a 
+          color: white
+          font-size: 30px
+          margin-right: 9px
+        
